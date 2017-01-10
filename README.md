@@ -19,7 +19,8 @@ Minimalistic Calculator
 ### Run app
 
 1. Clone repo ```git clone https://github.com/imshubhamsingh/minimalisticCalculator.git```
-2. ```npm install && start  ```
+2. ```cd minimalisticCalculator```
+3. ```npm install && npm start  ```
 
 Take a look, and if you find it useful, please feel free to use it! If you find anything missing, or have ideas on improving it, please fork it and send me a pull request!
 
