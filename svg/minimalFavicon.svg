@@ -16,10 +16,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r"
-   inkscape:export-filename="/home/shubham/Projects/WebStormProjects/Minimal_Calculator/img/favicon.png"
+   inkscape:export-filename="/home/shubham/Projects/WebStormProjects/Minimal_Calculator/img/logo.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
-   sodipodi:docname="minimalFaviconsvg.svg">
+   sodipodi:docname="minimalFavicon.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -108,7 +108,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
      inkscape:cx="409.47524"
-     inkscape:cy="565.82876"
+     inkscape:cy="493.51172"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      showgrid="false"
@@ -125,7 +125,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -141,7 +141,10 @@
        height="643.39752"
        x="17.976391"
        y="394.87524"
-       ry="74.163284" />
+       ry="74.163284"
+       inkscape:export-filename="/home/shubham/Projects/WebStormProjects/Minimal_Calculator/img/rect7038-3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
   <g
      inkscape:label="Layer 1"
@@ -156,7 +159,10 @@
        height="609.24847"
        x="35.050892"
        y="411.94974"
-       ry="73.506584" />
+       ry="73.506584"
+       inkscape:export-filename="/home/shubham/Projects/WebStormProjects/Minimal_Calculator/img/rect7038-3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -168,13 +174,19 @@
        style="fill:url(#linearGradient7216);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient7194);stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 177.38474,675.63015 392.71436,321.78935 40.71619,-31.52222 17.07453,-30.20881 13.13425,-35.46247 1.31344,-19.7014 1.31344,-178.62592 -1.31344,43.34304 -141.85,-127.40229 1.31343,61.731 z"
        id="path7072"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/shubham/Projects/WebStormProjects/Minimal_Calculator/img/rect7038-3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:url(#linearGradient7186);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient7116);stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 177.38474,799.09219 261.37176,220.65551 65.67129,1.3135 47.28334,-10.5074 27.58194,-18.38801 32.83566,-28.89535 28.89534,-91.93982 -139.22313,-131.34259 z"
        id="path7074"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccc" />
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/shubham/Projects/WebStormProjects/Minimal_Calculator/img/rect7038-3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -189,7 +201,10 @@
        height="59.438873"
        x="178.81865"
        y="617.75671"
-       ry="0" />
+       ry="0"
+       inkscape:export-filename="/home/shubham/Projects/WebStormProjects/Minimal_Calculator/img/rect7038-3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="opacity:1;fill:#e8e8e8;fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect7038-3"
@@ -197,6 +212,9 @@
        height="59.438873"
        x="178.81865"
        y="741.83545"
-       ry="0" />
+       ry="0"
+       inkscape:export-filename="/home/shubham/Projects/WebStormProjects/Minimal_Calculator/img/rect7038-3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
 </svg>
