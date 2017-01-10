@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="icon" href="img/favicon.png" type="icon/png">
+    <script src="vendors/js/jquery.min.js"></script>
+    <script src="vendors/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/css/typicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200" rel="stylesheet">
+</head>
+
+<body class="background">
+<div class="container text-xs-center">
+    <h1 style="font-family: 'Work Sans', sans-serif;color:whitesmoke;margin-top: 13px;z-index:6;position: relative">Minimalistic Calculator</h1>
+</div>
+<div style="min-width: 314px">
+    <div>
+        <div class="result container" >
+            <div class="text-xs-center" style="overflow:hidden;width: 273px;border-radius: 0 22px 22px 0;">
+                <span class="calculation" id="calculation"></span>
+            </div>
+            <div>
+                <div style="overflow: hidden;width: 312px;margin-left: -14px;">
+                 <h4 class="text-xs-center" style="font-size: 52px;" id="result">&nbsp;</h4>
+                </div>
+               <span class="remove float-xs-right btn fa fa-times-circle-o sign" id="C"></span>
+            </div>
+        </div>
+        <div class="triangle container">
+            <div class="triangle-topleft"></div>
+            <div class="triangle-topright float-xs-right"></div>
+            <div class="middlePortion"></div>
+        </div>
+    </div>
+    <div class="backpane container float-xs-none">
+        <div class="table">
+            <div class="row operation">
+                <div style="font-size: 20px">
+                    <span class="fa fa-plus col-xs-2 sign btn operator plus" value="+"></span>
+                    <span class="fa fa-minus col-xs-2 sign btn operator minus" value="-"></span>
+                    <span class="typcn typcn-equals col-xs-2 equal btn sign equals" value="="></span>
+                    <span class="fa fa-remove col-xs-2  btn operator multiply" value="*"></span>
+                    <span class="typcn typcn-divide col-xs-2 sign btn operator divide" value="/"></span>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 13px;">
+                <span class="col-xs-4 btn btn-lg btn-circle btn-primary" id="7">7</span>
+                <span class="col-xs-4 btn btn-lg btn-circle btn-primary" id="8">8</span>
+                <span class="col-xs-4 btn btn-lg btn-circle btn-primary" id="9">9</span>
+            </div>
+            <div class="row">
+                <span class="col-xs-4 btn btn-lg btn-circle btn-primary" id="4">4</span>
+                <span class="col-xs-4 btn btn-lg btn-circle btn-primary" id="5">5</span>
+                <span class="col-xs-4 btn btn-lg btn-circle btn-primary" id="6">6</span>
+            </div>
+            <div class="row">
+                <span class="col-xs-4 btn btn-lg btn-circle btn-primary" id="1">1</span>
+                <span class="col-xs-4 btn btn-lg btn-circle btn-primary" id="2">2</span>
+                <span class="col-xs-4 btn btn-lg btn-circle btn-primary" id="3">3</span>
+            </div>
+            <div class="row">
+                <span class="col-xs-4 btn btn-lg btn-circle btn-primary" id="decimal"><span class="fa fa-circle" style="font-size:4px;"></span></span>
+                <span class="col-xs-4 btn btn-lg btn-circle btn-primary" id="0">0</span>
+                <span class="col-xs-4 btn btn-lg btn-circle-backspace btn-primary" id="del"><span class="typcn typcn-backspace-outline" style="font-size: 21px"></span></span>
+            </div>
+        </div>
+    </div>
+    <div class="text-xs-center">
+    <small style="font-size: 10px;color:white;z-index:7;position: relative">Copyright &copy; 2017 Shubham Singh, This application is licensed under MIT License</small>
+    </div>
+</div>
+</body>
+
+</html>

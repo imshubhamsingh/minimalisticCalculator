@@ -1,0 +1,247 @@
+/* initializing fonts for typicons */
+@font-face {
+    font-family: 'typicons';
+    src: url("vendors/fonts/typicons.eot");
+    src: url("vendors/fonts/typicons.eot?#iefix") format('embedded-opentype'),
+    url("vendors/fonts/typicons.woff") format('woff'),
+    url("vendors/fonts/typicons.ttf") format('truetype'),
+    url("vendors/fonts/typicons.svg#typicons") format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* custom css */
+
+.background{
+    background: #8c6dda;
+}
+.table.no-border tr td, .table.no-border tr th {
+    border-width: 0;
+}
+.backpane{
+    background: #1b3249;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+    font-size: 55px;
+    box-shadow: 0 0 41px 41px #7056af;
+    width: 300px;
+    height: 456px;
+    position: relative;
+    padding-top: 24px;
+    margin-top: -23px;
+}
+
+.operation{
+    margin: auto;
+    background: #415368;
+    font-size: 40px;
+    border-radius:71px;
+    text-align: center;
+    font-size: 33px;
+    position: relative;
+    z-index: 6;
+    transition: 0.5s ease-out;
+}
+
+.sign{
+    transition: 0.5s ease-out;
+}
+.sign:hover{
+
+}
+.result{
+    background: #ffd256;
+    width: 316px;
+    position: relative;
+    z-index: 5;
+    color: #2e494d;
+    padding-top: 10px;
+    box-shadow: 0px -24px 68px -7px #7056af;
+    transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+}
+h4{
+    font-family:'Work Sans', sans-serif;
+    font-weight: 200;
+}
+.equal{
+    margin-top: 4px;
+    font-size: 22px;
+    border-radius: 50px;
+    color: #2e494d;
+    margin-bottom: -5px;
+    line-height: 38px;
+    background: #ffd256;
+    display: flex;
+    box-shadow: 0px 7px 7px -1px #415368;
+    position: relative;
+    z-index: 6;
+    height: 42px;
+    width: 44px;
+    padding-left: 14px;
+    margin-left: -2px;
+}
+
+.equal:hover{
+    transform: translateY(-2px) scale(1.05, 1.05);
+    background: #ffd256;
+    transition: 0.5s ease-out;
+}
+.equal:active{
+    transform: scale(1, 1);
+    background: #ffd256;
+    transition: 0.2s ease-out;
+}
+.operator{
+    transition: 0.2s ease-out;
+}
+.operator:hover{
+    text-shadow: 0 0 3px #FFFFFF;
+    transition: 0.2s ease-out;
+}
+.operator:active{
+    transform: scale(.5, .5);
+    transition: 0.2s ease-out;
+}
+.calculation{
+    position: relative;
+    z-index: 3;
+    margin-top: -65px;
+    color: #ffffff;
+    background: #edc451;
+    border-radius: 22px;
+    border-color: #eec550;
+    font-size: 17px;
+    max-width:100px;
+    padding-left: 11px;
+    padding-right: 11px;
+
+}
+.remove{
+    position: relative;
+    z-index: 3;
+    margin-top: -86px;
+    color: #ed9351;
+    border-radius: 50%;
+    padding: 0px 1px;
+    margin-right: -10px;
+}
+.remove:hover{
+    color: #ed4351;
+    transition: 0.3s ease-out;
+}
+.remove:active{
+    transform: scale(0.8,0.8);
+    transition: 0.3s ease-out;
+}
+.triangle {
+    width: 316px;
+    position: relative;
+    z-index: 5;
+    margin-top: 0px;
+}
+
+.triangle-topleft {
+    width: 0;
+    height: 0;
+    border-top: 7px solid #ee8a50;
+    border-left: 8px solid transparent;
+    margin-left: -15px;
+    position: relative;
+    z-index: 6;
+}
+.triangle-topright{
+    width: 0;
+    height: 0;
+    border-top: 7px solid #ee8a50;
+    border-right: 8px solid transparent;
+    margin-right: -15px;
+    position: relative;
+    z-index: 6;
+    margin-top: -7px;
+}
+
+.middlePortion{
+    width: 31px;
+    height: 13px;
+    margin-left: 126px;
+    position: relative;
+    z-index: 6;
+    background: #ffd256;
+    margin-top: -12px;
+}
+.btn-circle.btn-lg {
+    width: 85px;
+    height: 85px;
+    padding: 7px 25px;
+    font-size: 50px;
+    line-height: 1.33;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.btn-circle-backspace.btn-lg {
+    width: 85px;
+    height: 85px;
+    padding: 0px 0px;
+    font-size: 46px;
+    line-height: 1.33;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.btn-primary{
+    background: #1b3249;
+    border-color: #1b3249;
+    transition: 0.5s ease-out;
+}
+
+.btn-primary:hover{
+    background: #415368;
+    border-color: #415368;
+    transition: 0.5s ease-out;
+}
+
+.btn-operation1.btn-sm{
+    padding: -0.5rem 10rem;
+    border-radius: 0rem;
+}
+
+.plus {
+    margin-top: 1px;
+    padding-right: 51px;
+    text-indent: 15px;
+    padding-bottom: 0px;
+    padding-top: 1px;
+}
+
+.minus {
+    margin-top: 1px;
+    text-indent: -16px;
+    padding-bottom: 0px;
+    padding-top: 1px;
+}
+
+.equals {
+    margin-top: -8px;
+    padding-top: 1px;
+}
+
+.multiply {
+    margin-top: 1px;
+    text-indent: 8px;
+    padding-bottom: 0px;
+    padding-top: 1px;
+}
+
+.divide {
+    margin-top: -1px;
+    font-size: 20px;
+    padding-right: 49px;
+    padding-bottom: 0px;
+    text-indent: 3px;
+    padding-top: 1px;
+}
