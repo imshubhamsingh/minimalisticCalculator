@@ -8,7 +8,7 @@ Minimalistic Calculator
 <h4 align="center">A simple Calculator App.</h4>
 <h5 align="center"></h5>
 
-> It's a simple UI of a Calculator App that offers you just what you need. Nothing more, nothing less.
+> It's a simple UI Calculator App that offers you just what you need. Nothing more, nothing less.
 
 <h1 align="center">
 <img src="https://github.com/imshubhamsingh/minimalisticCalculator/raw/master/img/screenshot.png" alt="Minimalistic Calculator" width="999px"/>
