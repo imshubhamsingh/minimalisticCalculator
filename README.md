@@ -1,5 +1,5 @@
 <h1 align="center">
-<a href="https://github.com/jackd248/temps">
+<a href="https://github.com/imshubhamsingh/minimalisticCalculator">
 <img src="https://github.com/imshubhamsingh/minimalisticCalculator/raw/master/img/logo.png" alt="Minimalistic Calculator" width="200"/></a><br/><br/>
 Minimalistic Calculator
 <br/>
